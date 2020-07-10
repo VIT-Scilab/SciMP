@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fie is released under CeCILL license.-->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="get_max_threads" xml:lang="en">
+    <refnamediv>
+        <refname>get_max_threads</refname>
+        <refpurpose>Return the maximum number of threads used for the current parallel region that does not use the clause num_threads.</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>a = get_max_threads(void)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+			<para>No input arguments needed.</para>
+        <variablelist>
+            <varlistentry>
+                <term>a</term>
+                <listitem>
+                    <para>Output argument (Maximum number of threads that can be used to form a process if a parallel region without num_threads clause is encountered)</para>
+                </listitem>
+            </varlistentry>
+        </variablelist> 
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function returns the maximum number of threads that can execute concurrently in a single parallel region</para>
+        <para>This function in turn calls the omp_get_max_threads in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">a = get_max_threads()</programlisting>
+    </refsection>
+</refentry>

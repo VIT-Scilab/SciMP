@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fie is released under CeCILL license.-->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="set_nested" xml:lang="en">
+    <refnamediv>
+        <refname>set_nested</refname>
+        <refpurpose>Enables nested parallelism.</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>set_nested(b)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+	<variablelist>
+            <varlistentry>
+                <term>b</term>
+                <listitem>
+                    <para>Input argument (A nonzero value enables nested parallelism, while zero disables nested parallelism)</para>
+                </listitem>
+            </varlistentry>
+        </variablelist> 	
+                    <para>No Output argument</para>
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function is used to enable or disable nested parallelism.</para>
+        <para>This function in turn calls the omp_set_nested in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">set_nested(1)</programlisting>
+    </refsection>
+</refentry>

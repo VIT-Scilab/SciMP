@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fie is released under CeCILL license.-->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="set_dynamic" xml:lang="en">
+    <refnamediv>
+        <refname>set_dynamic</refname>
+        <refpurpose>Enable or disable the dynamic adjustment of the number of threads within a process. The function takes the language-specific equivalent of true and false, where true enables dynamic adjustment of team sizes and false disables it.</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>set_dynamic(b)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+	<variablelist>
+            <varlistentry>
+                <term>b</term>
+                <listitem>
+                    <para>Input argument (A nonzero value means threads will be dynamically adjusted.)</para>
+                </listitem>
+            </varlistentry>
+        </variablelist> 
+			<para>No output arguments needed.</para>
+        
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function enables or disables dynamic adjustment of number of threads within a process. By default, it is disabled</para>
+        <para>This function in turn calls the omp_set_dynamic function of omp library in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">set_dynamic(1)</programlisting>
+    </refsection>
+</refentry>

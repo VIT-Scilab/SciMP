@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fie is released under CeCILL license.-->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="unset_lock" xml:lang="en">
+    <refnamediv>
+        <refname>unset_lock</refname>
+        <refpurpose>Releases a lock.</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>unset_lock(void)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+			<para>No input and output arguments needed.</para>
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function unsets simple lock.</para>
+        <para>A simple lock about to be unset must have been locked by set_lock before.</para>
+        <para>This function in turn calls the omp_unset_lock function of omp library in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">unset_lock()</programlisting>
+    </refsection>
+</refentry>

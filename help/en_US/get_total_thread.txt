@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--* This file is released under the 3-clause BSD license. See COPYING-BSD.* -->
+
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="get_total_thread" xml:lang="en">
+  
+   <refnamediv>
+        <refname>get_thread_num</refname>
+        <refpurpose>Get the thread execution sequence.</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>a = get_thread_num(b)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+        <variablelist>
+            <varlistentry>
+                <term>b</term>
+                <listitem>
+                    <para>Input argument (not necessary)</para>
+                </listitem>
+            </varlistentry>
+			<varlistentry>
+                <term>a</term>
+                <listitem>
+                    <para>Output argument (returns the thread execution sequence)</para>
+                </listitem>
+            </varlistentry>
+        </variablelist> 
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function returns an array of thred execution sequence.</para>
+		<para>If an input argument 'b' is given, then this function will set the number of threads to 'b' and then returns the thread execution sequence.</para>
+        <para>If no input arguments are present, then this function will consider the present number of threads and then returns the thread execution sequence.</para>
+		<para>This function inturn calls the omp_get_thread_num in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">a = get_thread_num()</programlisting>
+		<programlisting role="example">a = get_thread_num(4)</programlisting>
+    </refsection>
+</refentry>

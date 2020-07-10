@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fie is released under CeCILL license.-->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="set_max_active_levels" xml:lang="en">
+    <refnamediv>
+        <refname>set_max_active_levels</refname>
+        <refpurpose>Limits the maximum allowed number of nested, active parallel regions</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>set_max_active_levels(b)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+	<variablelist>
+            <varlistentry>
+                <term>b</term>
+                <listitem>
+                    <para>Input argument (Number of active and nested parallel regions)</para>
+                </listitem>
+            </varlistentry>
+        </variablelist> 	
+                    <para>No Output argument</para>
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function limits the maximum allowed number of nested, active parallel regions.</para>
+        <para>This function in turn calls the omp_set_max_active_levels in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">set_max_active_levels(5)</programlisting>
+    </refsection>
+</refentry>

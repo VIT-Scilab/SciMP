@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fie is released under CeCILL license.-->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="in_parallel" xml:lang="en">
+    <refnamediv>
+        <refname>in_parallel</refname>
+        <refpurpose>Returns non-zero if this function is called within a parallel region.</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Syntax</title>
+        <synopsis>a = in_parallel(void)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+			<para>No input arguments needed.</para>
+        <variablelist>
+            <varlistentry>
+                <term>a</term>
+                <listitem>
+                    <para>Output argument (Returns 1 if called within a parallel region.)</para>
+                </listitem>
+            </varlistentry>
+        </variablelist> 
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>This function returns 1 if the current task is enclosed by an active parallel region.</para>
+        <para>This function in turn calls the omp_in_parallel function of omp library in C.</para>
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">a = in_parallel()</programlisting>
+    </refsection>
+</refentry>
