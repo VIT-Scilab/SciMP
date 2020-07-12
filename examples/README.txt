@@ -1,3 +1,4 @@
+// This file is licensed under CeCILL
 This is a file containing instructions about the executing the codes example1 and example2.
 
 Example1:

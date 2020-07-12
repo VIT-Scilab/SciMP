@@ -1,14 +1,14 @@
 #include <wchar.h>
-#include "libopenmp_c.hxx"
+#include "scimp_c.hxx"
 extern "C"
 {
-#include "libopenmp_c.h"
+#include "scimp_c.h"
 #include "addfunction.h"
 }
 
-#define MODULE_NAME L"libopenmp_c"
+#define MODULE_NAME L"scimp_c"
 
-int libopenmp_c(wchar_t* _pwstFuncName)
+int scimp_c(wchar_t* _pwstFuncName)
 {
     if(wcscmp(_pwstFuncName, L"get_total_thread") == 0){ addCFunction(L"get_total_thread", &sci_gettnum, MODULE_NAME); }
     if(wcscmp(_pwstFuncName, L"set_total_thread") == 0){ addCFunction(L"set_total_thread", &sci_settnum, MODULE_NAME); }

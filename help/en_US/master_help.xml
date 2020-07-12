@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY adaf85acc8e375b8826f9e6d981e4d507 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/critical.xml">
+<!ENTITY acd592665ebbf427dc84f208197f43ec7 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/destroy_lock.xml">
+<!ENTITY a9fee9b27465f1530afc64a40a72b2199 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_active_level.xml">
+<!ENTITY adf6946e313824567dce0f9c49d8fd822 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_dynamic.xml">
+<!ENTITY a61bd96c3993b2698d04faa8716f8c0d7 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_level.xml">
+<!ENTITY a19ae734f818d05e578d303563711063a SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_max_active_levels.xml">
+<!ENTITY a2002b610144682d062939d75b6a116e6 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_max_threads.xml">
+<!ENTITY a6028ad862a95b95f17fa3f11a0240605 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_nested.xml">
+<!ENTITY add9433bf400ae8e8dc18384839e22f93 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_num_procs.xml">
+<!ENTITY aff6ee4031802c6e272b9cf9569256166 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_num_teams.xml">
+<!ENTITY a94786c5d10944fc28ef241d78a7b7d0e SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_team_num.xml">
+<!ENTITY a40aeeb4f0c07fbb12ba43b0d18518d8c SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_thread_limit.xml">
+<!ENTITY ae9db5eca10a07be8709110c15439ece5 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_thread_num.xml">
+<!ENTITY a0cff1f4ef9205e42343cb515345ba16d SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_total_thread.xml">
+<!ENTITY afd27a4502564bd8a28b79fe9dfba5238 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/get_wtime.xml">
+<!ENTITY a308ee8825367e94d13985e0286aaf029 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/in_parallel.xml">
+<!ENTITY a3aa558de8fa15527147b251903dc6bf0 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/init_lock.xml">
+<!ENTITY ac48bb2a0520b08b005c672ae12f06d1d SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/mast.xml">
+<!ENTITY a8a8cc60b86283b6101ab17cddb0f7513 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/mat_mul.xml">
+<!ENTITY a3e1e2bef400b0e56b50c1b8ce8bb0b7f SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/omp.xml">
+<!ENTITY a02d3d192a7791f7687396797a5d9d56a SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/set_dynamic.xml">
+<!ENTITY acab41c4d68a92a9880394fad7aec7b54 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/set_lock.xml">
+<!ENTITY aa3ba71e9b130f060a89ab1eb41571308 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/set_max_active_levels.xml">
+<!ENTITY a13d9ba3e6dabcced329edd29e40d208a SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/set_nested.xml">
+<!ENTITY a62a4bb4a219fa94484f23526c8ddcfe2 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/set_total_thread.xml">
+<!ENTITY a7aeda315ca04eaa5e52173c618dc2b91 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/single.xml">
+<!ENTITY a06568a4a1b85be4ed0d8565f331525bb SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/team.xml">
+<!ENTITY ab5e68156b7732d75dc846073f3f0d698 SYSTEM "file:///C:/Users/SRP/Documents/1.TOOLBOX codes/SciMP/SciMP toolbox/help/en_US/unset_lock.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='scimp_manual'>
+    <title>SciMP</title>
+  </info>
+
+<part xml:id='section_fb8dd93df4aacd1aa83eaff530d38754'>
+<title>SciMP</title>
+&adaf85acc8e375b8826f9e6d981e4d507;
+&acd592665ebbf427dc84f208197f43ec7;
+&a9fee9b27465f1530afc64a40a72b2199;
+&adf6946e313824567dce0f9c49d8fd822;
+&a61bd96c3993b2698d04faa8716f8c0d7;
+&a19ae734f818d05e578d303563711063a;
+&a2002b610144682d062939d75b6a116e6;
+&a6028ad862a95b95f17fa3f11a0240605;
+&add9433bf400ae8e8dc18384839e22f93;
+&aff6ee4031802c6e272b9cf9569256166;
+&a94786c5d10944fc28ef241d78a7b7d0e;
+&a40aeeb4f0c07fbb12ba43b0d18518d8c;
+&ae9db5eca10a07be8709110c15439ece5;
+&a0cff1f4ef9205e42343cb515345ba16d;
+&afd27a4502564bd8a28b79fe9dfba5238;
+&a308ee8825367e94d13985e0286aaf029;
+&a3aa558de8fa15527147b251903dc6bf0;
+&ac48bb2a0520b08b005c672ae12f06d1d;
+&a8a8cc60b86283b6101ab17cddb0f7513;
+&a3e1e2bef400b0e56b50c1b8ce8bb0b7f;
+&a02d3d192a7791f7687396797a5d9d56a;
+&acab41c4d68a92a9880394fad7aec7b54;
+&aa3ba71e9b130f060a89ab1eb41571308;
+&a13d9ba3e6dabcced329edd29e40d208a;
+&a62a4bb4a219fa94484f23526c8ddcfe2;
+&a7aeda315ca04eaa5e52173c618dc2b91;
+&a06568a4a1b85be4ed0d8565f331525bb;
+&ab5e68156b7732d75dc846073f3f0d698;
+</part>
+</book>

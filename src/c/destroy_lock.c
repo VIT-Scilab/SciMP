@@ -2,8 +2,8 @@
 Copyright © 2020 
 
 Authors: Surya Prasad S, Yeshwanth R, Tharun Bhargav A, Aravind Krishna R, Dr. Maheswari R
-Organization: VIT, Chennai
-Email: suryavirat09@gmail.com, yeshwa.rp@gmail.com, tharun.cam@gmail.com, aravind2000krishna@gmail, Maheswari.r@vit.ac.in 
+Organization: VIT Chennai
+Email: suryavirat09@gmail.com, yeshwa.rp@gmail.com, tharun.cam@gmail.com, aravind2000krishna@gmail, maheswari.r@vit.ac.in
 
 This toolbox integrates the functionalities of OpenMP with Scilab. 
 

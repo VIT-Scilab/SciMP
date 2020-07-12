@@ -1,3 +1,4 @@
+// This file is licensed under CeCILL
 function scimplib = startModule()
 
     TOOLBOX_NAME  = "scimp";

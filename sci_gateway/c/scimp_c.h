@@ -1,5 +1,5 @@
-#ifndef __LIBOPENMP_C_GW_H__
-#define __LIBOPENMP_C_GW_H__
+#ifndef __SCIMP_C_GW_H__
+#define __SCIMP_C_GW_H__
 
 #include "c_gateway_prototype.h"
 
@@ -32,4 +32,4 @@ C_GATEWAY_PROTOTYPE(sci_team);
 C_GATEWAY_PROTOTYPE(sci_unset_lock);
 C_GATEWAY_PROTOTYPE(sci_wtime);
 
-#endif /* __LIBOPENMP_C_GW_H__ */
+#endif /* __SCIMP_C_GW_H__ */

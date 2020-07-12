@@ -1,4 +1,4 @@
-
+// This file is licensed under CeCILL
 function quitModule()
 
     etc_tlbx  = get_absolute_file_path("scimp.quit");

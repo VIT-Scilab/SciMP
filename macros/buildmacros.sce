@@ -1,4 +1,4 @@
-// This file is released under the 3-clause BSD license. See COPYING-BSD.
+// This file is licensed under CeCILL
 
 function buildmacros()
     macros_path = get_absolute_file_path("buildmacros.sce");
