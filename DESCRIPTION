@@ -1,17 +1,3 @@
-// Modify this file to provide a description of your toolbox.
-// This file is used by Atoms GUI in scilab, to show information about the toolbox.
-//
-// Note that it will NOT be used when publishing your toolbox on http://atoms.scilab.org;
-// the present file is only used if you distribute your toolbox yourself.
-// On the http://atoms.scilab.org site, only the information you provide there is used.
-//
-//
-// Lines starting with // are comments
-// (you can remove all the comments designed to help you)
-// Lines starting with a space are continuation of the previous field.
-// Empty lines separate fields.
-
-
 // Unique identifier for this toolbox.
 // It must be alphanumeric, start with a letter and contain neither space
 // nor special characters other than underscore or dash.
@@ -38,7 +24,10 @@ Author: Dr.Maheswari R
 		Yeshwanth R
   Other Author
 // Name(s) and email address(es) of the person(s) maintaining this toolbox
-Maintainer: name <name@address.com>
+Maintainer: Aravind Krishna R <aravind2000krishna@gmail.com>
+			Surya Prasad S <suryavirat09@gmail.com>
+			Tharun Bhargav A <tharun.cam@gmail.com>
+			Yeshwanth R <yeshwa.rp@gmail.com>
   Other Maintainer <othername@address.com>
 
 // Categories that this toolbox belongs to.
